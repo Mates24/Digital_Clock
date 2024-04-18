@@ -4,8 +4,8 @@ function updateTime(){
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
     
-    hours = hours % 12;
-    hours = hours ? hours : 12;
+    hours = hours % 24;
+    hours = hours ? hours : 24;
     
     hours = hours < 10 ? "0" + hours : hours;
     minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -15,5 +15,7 @@ function updateTime(){
     document.getElementById("minutes").textContent = minutes;
     document.getElementById("seconds").textContent = seconds;
 }
+
+setInterval(updateTime, 1000);
 
 updateTime();
