@@ -19,26 +19,18 @@ body{
     align-items: center;
     top: 50%;
     left: 50%;
+    font-size: 75px;
+    font-weight: 500;
     height: 300px;
     width: 950px;
     background: #161717;
     transform: translate(-50%, -50%);
 }
 .container div{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 200px;
     background: #000000;
-}
-.double_dots{
-    font-size: 75px;
-    font-weight: 500;
-}
-.container div span{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    font-size: 75px;
-    font-weight: 500;
-    transform: translate(-50%, -50%);
 }
