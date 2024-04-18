@@ -25,6 +25,7 @@ body{
     width: 950px;
     border-radius: 20px;
     background: #161717;
+    box-shadow: 0 0 50px #000000;
     transform: translate(-50%, -50%);
 }
 .container div{
