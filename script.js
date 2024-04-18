@@ -16,6 +16,6 @@ function updateTime(){
     document.getElementById("seconds").textContent = seconds;
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 10);
 
 updateTime();
